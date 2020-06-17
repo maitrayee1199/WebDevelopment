@@ -1,0 +1,120 @@
+#parent{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+}
+
+#top-bar{
+	width: 100%;
+	height: 10%;
+	/*background-color: red;*/
+	display: inline-flex;
+}
+
+#container{
+	width: 100%;
+	height: 80%;
+	background-color: grey;
+	overflow-y: auto;
+}
+
+#lower-bar{
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+	display: inline-flex;
+}
+
+#icon{
+	color: #ffffff;
+}
+
+#extra-div1{
+	height: 100%;
+	width: 40%;
+	/*background-color: white;*/
+	text-align: center;
+    font-size: xxx-large;
+    font-style: oblique;
+    color: aquamarine;
+}
+
+#priority-container{
+	width: 60px;
+	height: 60px;
+	margin: 0px 5px 5px 5px;
+	color: white;
+}
+
+#priority{
+	width: 80%;
+	height: 80%;
+	background-color: red;
+	position: relative;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		border-radius:50%;
+}
+
+#div1-task{
+	/*background-color: white;*/
+    height: 5%;
+    margin: 5px 0px 0px 0px;
+}
+
+#add-container{
+	width: 5%;
+    height: 100%;
+    font-size: xxx-large;
+    color: antiquewhite;
+    text-align:right;
+}
+
+#fa-plus-circle{
+	width: 100%;
+    margin-top: 5%;
+}
+
+#task-input-container{
+	height: 100%;
+    width: 50%;
+}
+
+#task-input{
+	width: 100%;
+    height: 50%;
+    border: none;
+    padding: unset;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+#add-button-container{
+	height: 100%;
+    width: 10%;
+}
+
+#add-button{
+	margin-top: 15px;
+    height: 50%;
+    width: 100%;
+    /* font-style: oblique; */
+    font-weight: bolder;
+    background-color: #BDBDBD;
+    text-shadow: 2px 2px white;
+    border-radius: 5px;
+}
+
+.checkbox{
+	width: 20px;
+	height: 20px;
+}
+
+#div1-task{
+	color: grey;
+}

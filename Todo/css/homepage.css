@@ -1,0 +1,69 @@
+
+	#parent{
+		width: 100%;
+		height: 100%;
+	}
+	#container{
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		width: 90%;
+		height: 90%;
+		background-color:#000000;
+	}
+#bars{
+	color: black;
+    font-size: xx-large;
+}
+a{
+	width: 50%;
+	height: 100%;
+	margin: 2%;
+}
+#personal,#work,#shopping,#others{
+	color:black;
+	width: 80%;
+	height: 80%;
+	margin: 2%;
+}
+
+#personal{
+	background-color: #ffaaaa;
+}
+#work{
+	background-color: #ffff00;
+}
+#shopping{
+	background-color: #00bbff;
+}
+#others{
+	background-color: #00ff00;
+}
+
+ #line1{
+ 	width: 112px;
+    height: 4px;
+    border-bottom: 1px solid red;
+    background-color: #ffffff;
+    -webkit-transform: translateY(20px)
+            translateX(-10px)
+            rotate(-27deg);
+    position: absolute;
+}
+
+#personal-text{
+	position: relative;
+    top: 20px;
+    bottom: 0px;
+    left: 60px;
+    right: 0px;
+    text-shadow: 5px 4px white;
+    font-size: larger;
+    font-style:oblique;
+    font-weight: bolder;
+    margin: auto;
+}
+

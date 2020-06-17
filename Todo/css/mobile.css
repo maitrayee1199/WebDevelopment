@@ -1,0 +1,111 @@
+#parent{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	font-size: xx-large;
+}
+
+#top-bar{
+	width: 100%;
+	height: 10%;
+	background-color: black;
+	display: inline-flex;
+}
+
+#container{
+	width: 100%;
+	height: 80%;
+	background-color: grey;
+	overflow-y: auto;
+}
+
+#lower-bar{
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+	color: white;
+}
+
+#search-bar{
+	font-size:xx-large;
+}
+
+#icon{
+	font-size: xxx-large;
+}
+
+
+#extra-div1{
+	height: 100%;
+	width: 0%;
+	background-color: white;
+	display: none;
+}
+
+#priority-container{
+	width: 80px;
+	height: 80px;
+	margin: 0px 20px 5px 15px;
+	font-weight: bolder;
+	color: white;
+}
+
+#priority{
+	width: 80%;
+	height: 80%;
+	background-color: red;
+	position: relative;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		border-radius:50%;
+}
+
+#add-container {
+    width: 10%;
+    height: 100%;
+    font-size: xxx-large;
+    color: antiquewhite;
+    text-align: right;
+}
+
+#add-button{
+	margin-top: 10px;
+    height: 50%;
+    width: 100%;
+    /* font-style: oblique; */
+    font-weight: bolder;
+    background-color: #BDBDBD;
+    text-shadow: 2px 2px white;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+#fa-plus-circle {
+    width: 100%;
+    margin-top: 15%;
+}
+
+#task-input{
+	font-size: xx-large;
+}
+
+#checkbox {
+    height: 40px;
+    width: 40px;
+}
+
+.checkbox{
+	width: 40px;
+	height: 40px;
+}
+
+#div1-task{
+	text-align: center;
+    font-size: xxx-large;
+    font-style: oblique;
+    color: aquamarine;
+}

@@ -1,0 +1,72 @@
+
+	#login-bg{
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		width: 50%;
+		height: 70%;
+		background-color: black;
+		box-shadow: 5px 5px grey;
+   		display: block;
+        border-radius: 5px;
+        color:white;
+	}
+
+#id,#name{
+	display: inline-flex;
+}
+
+#password{
+	display: inline-flex;
+}
+
+table{
+	height:60%;
+	width: 100%;
+}
+
+input {
+    border-radius: 5px;
+    height: 50%;
+    width: 90%;
+    background-color: black;
+    color:white;
+    border-bottom-style: solid;
+    border-top: hidden;
+    border-left: hidden;
+    border-color: white;
+}
+
+#login-a,#signup-a{
+	height: 100%;
+	width: 50%;
+	background-color: yellow;
+	text-align: center;
+}
+
+#login,#signup{
+	text-align: center;
+	height:10%;
+}
+
+#header{
+	width: 100%;
+	height: 10%;
+	width: 100%;
+    height: 10%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xxx-large;
+    font-style: oblique;
+    font-family: cursive;
+    text-shadow: 5px 2px grey;
+}
+
+
+
+
+
+
