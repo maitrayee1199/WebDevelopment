@@ -1,0 +1,59 @@
+
+.date{
+	display: table-row;
+	}
+
+.buttonsparent{
+	display: table-row;
+	text-align:center;
+}
+#active {
+    display: table-cell;
+    width: 10%;
+    color:black;
+    text-align:center;
+    background-color: #aaffcc;
+    border-radius: 20px;
+}
+/*changes color of div when mouse in on it i.e. hovered on it*/
+#active:hover{
+	background-color: #aaaaFF;
+}
+
+#cured {
+    display: table-cell;
+    width: 12%;
+    color:black;
+    text-align:center;
+    background-color: #ffee00;
+    border-radius: 20px;
+}
+#cured:hover{
+	background-color: #aaaaFF;
+}
+
+
+#deaths {
+    display: table-cell;
+    width: 10%;
+    color:black;
+    text-align:center;
+    background-color: #aaaaff;
+    border-radius: 20px;
+}
+#deaths:hover{
+	background-color: #aaaaFF;
+}
+
+#migrated {
+    display:table-cell;
+    width: 10%;
+    color:black;
+    text-align:center;
+    background-color: #aaff00;
+    border-radius: 20px;
+}
+#migrated:hover{
+	background-color: #aaaaFF;
+}
+

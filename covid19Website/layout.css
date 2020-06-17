@@ -1,0 +1,36 @@
+
+html,body{
+	background-color: #ff0000;
+	margin: 0px;
+	height: 100%;
+	overflow:hidden;
+}
+
+.parent{
+	background-color: #ffffff;
+	width:100%;
+	height: 100%;
+	overflow-y:scroll;
+}
+
+.header{
+	height:15%;
+	width:100%;
+	background-color: #ffaaaa;
+	display:inline-flex;
+	float: left;
+}
+
+.content{
+	height: 77%;
+	width:100%;
+	background-color:#ffe4c4;
+	display:inline-flex;
+}
+
+.navbar{
+	height: 12%;
+	background-color:#aaff99;
+	display: table;
+	width:100%;
+}

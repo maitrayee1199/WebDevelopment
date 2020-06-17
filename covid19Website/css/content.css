@@ -1,0 +1,24 @@
+
+#contentleft{
+	width:25%;
+	height:100%;
+	background-color:#eeeeee;
+}
+
+#contentright{
+	width:25%;
+	height:100%;
+	background-color:#aaaaaa;
+	overflow-y: scroll;
+    overflow-wrap: break-word;
+    margin: 5px;
+}
+
+#maincontent{
+	padding:10px;
+	width:50%;
+	height:100%;
+	background-color:#ffffff;
+	text-align: center;
+}
+

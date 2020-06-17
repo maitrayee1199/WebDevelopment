@@ -1,0 +1,10 @@
+.ext{
+	color: #1111ff;
+}
+
+.WhatsApp,.Facebook,.Telegram,.FacebookMessenger,.Instagram,.Twitter,.LinkedIn,.YouTube{
+	text-align: center;
+	padding: 3px;
+	background-color:#eeeeee;
+}
+

@@ -1,0 +1,26 @@
+
+#corosafe{
+	font-size: xxx-large;
+	font-style: italic,bold;
+}
+
+#tagline{
+	font-family: Times new Roman,brush script M7,arial;
+	color:#0000ff;
+	margin-top: 0px;
+	text-align: left;
+	width: 60%;
+}
+
+pre{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#stayhomestaysafe{
+	width: 40%;
+	margin-top:0px;
+	text-align:center;
+	font-size:x-large;
+	color:#1111ff;
+}
